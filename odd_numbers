@@ -1,0 +1,35 @@
+#WAP TO INPUT 5 NUMBERS FROM THE USER AND STORE ONLY THE ODD NUMBERS IN A SET. THEN, PRINT THE SET.
+
+set=set()
+
+num1=int(input("ENTER NUMBER ONE: "))
+if num1%2!=0:
+    set.add(num1)
+else:
+    pass
+
+num2=int(input("ENTER NUMBER TWO: "))
+if num2%2!=0:
+    set.add(num2)
+else:
+    pass
+
+num3=int(input("ENTER NUMBER THIRD: "))
+if num3%2!=0:
+    set.add(num3)
+else:
+    pass
+
+num4=int(input("ENTER NUMBER FOURTH: "))
+if num4%2!=0:
+    set.add(num4)
+else:
+    pass
+
+num5=int(input("ENTER NUMBER FIFTH: "))
+if num5%2!=0:
+    set.add(num5)
+else:
+    pass
+
+print(set)
