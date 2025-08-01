@@ -1,0 +1,21 @@
+#a dict to store the names and favorite colour of 3 friends. Then ask the user to enter one of the friends's names and display their favourite color.
+
+
+f1=str(input("FRIEND 1: "))
+c1=str(input("COLOUR 1: "))
+
+f2=str(input("FRIEND 2: "))
+c2=str(input("COLOUR 2: "))
+
+f3=str(input("FRIEND 3: "))
+c3=str(input("COLOUR 3: "))
+
+c_list={
+    f1:c1,
+    f2:c2,
+    f3:c3,
+}
+
+asknow=str(input("ENTER YOUR FAVOURITE FRIENDS NAME: "))
+now=c_list.get(asknow)
+print(now) 
